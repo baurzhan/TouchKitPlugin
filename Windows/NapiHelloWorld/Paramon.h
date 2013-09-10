@@ -1,0 +1,19 @@
+#ifndef __PARAMON_H__
+#define __PARAMON_H__
+#include <fstream>
+#include "plugin.h"
+using namespace std;
+
+
+void paramonInitialize(HWND,CPlugin*);
+void paramonDispose(void);
+void paramonOnTouch(WORD,WORD,DWORD);
+void paramonOnReady(string,string);
+string paramonGetTouchInfo(void);
+void paramonEnableTouch(bool);
+string paramonGetScreenInfo(void);
+void paramonMoveWindowToScreen(wchar_t *,wchar_t *);
+void paramonDebug(wchar_t * );
+void paramonLoadlibrary(WCHAR *);
+#endif // __PARAMON_H__
+

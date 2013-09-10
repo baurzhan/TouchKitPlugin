@@ -1,0 +1,7 @@
+LIBRARY touch
+EXPORTS
+	CloseDevice @1
+	CreateDevice @2
+	EnableTouch @3
+	EnumerateTouchDevice @4
+	EnumerateTouchInstance @5
